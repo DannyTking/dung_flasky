@@ -6,7 +6,7 @@ if [ -d "$dirpath/venv" ]; then
 	exit 0
 fi
 echo 'python3 -m venv venv'
-pytho3 -m venv venv
+python3 -m venv venv
 ls -atrl ${dirpath}
 if [ -d "$dirpath/venv" ]; then  
 	echo "# Virtual environment \nvenv \n" >> ${dirpath}/.gitignore
