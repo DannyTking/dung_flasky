@@ -16,6 +16,6 @@ if [ $2 == "u" ]; then
     exit 0
 fi
 echo "pip install $1 ......."
-pip install $1
+pip install -U $1
 pip freeze ->requirements.txt
 echo "pip done!"
